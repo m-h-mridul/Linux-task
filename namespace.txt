@@ -1,0 +1,15 @@
+
+### for active any naemspace
+sudo ifconfig <interface-name> up
+sudo ifconfig eth0 up
+sudo ip link set <interface-name> up
+
+##to show deatils about ip addess and there getway
+ ip route
+
+##for delate destination addeess
+sudo ip route del <network>/<subnet-mask> dev <interface-name>
+ 
+
+#for delate naemspace
+sudo ip netns delete my-namespace

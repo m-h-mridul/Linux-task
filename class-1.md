@@ -1,0 +1,19 @@
+# Linux note
+
+first-class:
+
+**cd /etc** → goto a new file structure ,
+
+in etc folder structure we see all kind of infromation like user root,password, infromation and apps whcih are install in.
+
+to cheak which are using type→  **echo $SHELL**→ see what name of the shell
+
+if we want use bash but we see we are not in bash then we cheak where bash is for seen this type → **which bash** → its show the location of bash
+
+for creat an  file in linux first write → nano myscript.sh -> ./myscript.sh→  here   we write what we want → for save → control O → then save extension(as we declear our extension first so )  hit enter → control x → for exit the operation now we see the file by ls command.
+
+for change the file mode →sudo chmod +x myscript.sh (filename)→ ls→ ans show by change the colors.
+
+for run the script what we wrtite → ./myscript.sh→ here . means this folder and the name refer the file.
+
+to see what we write in a scipt →cat myscript.sh
